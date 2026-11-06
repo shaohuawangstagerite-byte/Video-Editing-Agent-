@@ -1,0 +1,24 @@
+# Local media, generated files, and task records.
+/inputs/
+/outputs/
+
+# Python caches.
+__pycache__/
+*.py[cod]
+
+# Local connection settings and secrets.
+.env
+.env.*
+/opencode*.json
+/opencode*.jsonc
+/.opencode/opencode*.json
+/.opencode/opencode*.jsonc
+/model-config*.json
+/model-config*.jsonc
+/*.local.json
+*.pem
+*.key
+
+# Local runtime logs.
+*.log
+*.jsonl
